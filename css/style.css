@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.tel-icon{
+    padding: 7px 0;   
+}
+.tel-icon-center{
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #B59A6D;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.tel{
+    display: flex;    
+}
+.call-row{
+    display: flex;    
+    align-items: center;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+.call p{
+    margin-bottom: 5px;
+    color: #B59A6D;
+}
+.tel ion-icon{
+    margin-right: 5px;
+    padding: 13px;
+    border-radius: 50%;
+    border: 1px solid #B59A6D;
+    color: #B59A6D;
+}
+.tel a{
+    margin-right: 15px;
+    color: #3b3b3b;
+}
+.icon a{
+    margin-left: 15px;
+    color: #3b3b3b;
+    font-size: 1.2rem;
+}
+
+
+header{
+  background: white;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0px;
+  font-size: 20px;
+  border-bottom: 3px solid #B59A6D;
+}
+
+li{
+  list-style: none;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #313131;
+  font-family: 'Kalnia', serif;
+}
+
+.nav-item a{
+  color: #313131;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  max-width: 1080px;
+  margin: auto;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+}
+
+.nav-branding{
+  font-size: 2rem;
+}
+
+/* transition for links */
+
+.nav-link{
+  transition: 0.5s ease;
+}
+
+.nav-link:hover{
+  color: #B59A6D;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #3b3b3b;
+  border-radius: 2px;
+}
+
+.nav-item{
+  padding: 0 0 0 2rem;
+}
+
+
+
+/* ---------------hero----------------------------- */
+.section-hero{
+  background: linear-gradient(rgba(20, 37, 56, 0.486), rgba(0, 0, 0, 0.411)), url(../img/hero-bg.png) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero-row{
+  max-width: 1080px;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text h1{
+  font-size: 50px;
+  width: 400px;
+  color: white;
+}
+.hero-text p{
+  font-size: 17px;
+  width: 70%;
+  margin: 20px 0 40px 0;
+  color: white;line-height: 25px;
+}
+.button{
+  padding: 15px 50px;
+  background-color: #B59A6D;
+  color: azure !important;
+  border-radius: 10px;
+}
+.book{
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  width: 650px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-box{
+  padding: 30px 35px;
+}
+.form-box div label{
+  margin-bottom: 10px;
+}
+.form-box div input{
+  margin: 5px 0 15px 0;
+  width: 100%;
+  padding: 7px 10px;
+  color: #7c7c7c;
+  font-size: 17px;
+  border: 1px solid #a3a3a3;
+  outline: #B59A6D;
+  border-radius: 5px;
+}
+.submit{
+  padding: 10px 35px;
+  background-color: #B59A6D;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* ---------- cractice are ------------------------------------------ */
+.practice-row{
+  max-width: 1080px;
+  margin: auto;
+  padding: 4rem 0;
+  z-index: -1111;
+}
+.pcractice-head{
+  text-align: center;
+}
+.pcractice-head h2{
+  font-size: 30px;
+}
+.pcractice-head  p{
+  margin: 20px 0 60px 0;
+  width: 80%;
+  margin-left: 10%;
+}
+.items{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  z-index: -11;
+}
+.item{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  padding: 40px 20px;  
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+.item h3{
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+}
+.item p{
+  margin-top: 10px;  
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #4b4b4b;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.item a{
+  color: #B59A6D;
+}
+
+.mark{
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  opacity: 0;
+  background-color: #B59A6D;
+  transition: .5s;
+  border-bottom-left-radius: 80%;
+  border-top-right-radius: 5px;
+
+}
+
+.item:hover .mark{
+  opacity: 0.5;
+  transition: 0.9s;
+
+}
+
+.item:hover{
+  transition: 0.5s;
+  transform: scale(1.03);
+  background-color: #f7f7f7;
+}

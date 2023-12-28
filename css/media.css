@@ -1,0 +1,105 @@
+
+@media(max-width: 1081px){
+
+    .navbar, .tel-icon, .hero-row, .section-practice{
+        max-width: 90%;
+        margin-left: 5%;
+       }
+    .bar{
+        display: block;
+      }
+    
+    .hamburger{
+        display: block;
+        z-index: 1111111;
+      }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+      }
+    .hamburger.active .bar:nth-child(1){
+        transform: rotate(45deg) translateY(11.5px); 
+      }  
+      .hamburger.active .bar:nth-child(3){
+        transform: rotate(-45deg) translateY(-11.5px); 
+      }
+    
+      .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 60px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        transition: 0.3s;
+        z-index: 1111111;
+        border-bottom: 2px solid #B59A6D;
+      }
+    
+      .nav-item{
+        padding: 1.5rem 0;
+      }
+      
+      .nav-menu.active{
+        right: 0;
+      }
+
+      /* -----------------  About section ------------------------- */
+
+
+
+    }
+    
+
+    @media(max-width: 830px){
+      .hero-row{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .hero-text h1{
+        font-size: 45px;
+        width: auto;
+      }
+      .hero-text p{
+        width: 90%;
+      }
+
+      .book{
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        z-index: -11;
+      }
+      
+    }
+    @media(max-width: 565px){
+      .tel-icon{
+        display: none;
+      }
+
+      .items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+
+      }
+      
+    }
+    @media(max-width: 400px){
+      .hero-row{
+        height: 120vh;
+      }
+    }
