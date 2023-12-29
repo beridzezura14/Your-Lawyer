@@ -1,7 +1,7 @@
 
 @media(max-width: 1081px){
 
-    .navbar, .tel-icon, .hero-row, .section-practice{
+    .navbar, .tel-icon, .hero-row, .section-practice, .privide{
         max-width: 90%;
         margin-left: 5%;
        }
@@ -50,6 +50,15 @@
         transform: scale(1);
       } 
 
+      .provide-text h3{
+        font-size: 25px;
+      }
+      .provide-image img{
+        width: 220px;
+      }
+      .privide-button{
+        padding: 15px 25px;
+      }
       /* -----------------  About section ------------------------- */
 
 
@@ -88,6 +97,32 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         z-index: -11;
+      }
+
+
+      .privide{
+        flex-direction: column;
+      }
+      .provide-image img:first-child{
+        margin-right: 0px;
+      }
+      .provide-image img{
+        width: 100%;
+      }
+      
+      .provide-image{
+        width: 99%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+      }
+      .provide-text{
+        padding: 2rem;
+        padding-left: 0px;
+      }
+      .provide-text p{
+        line-height: 25px;
       }
 
     }

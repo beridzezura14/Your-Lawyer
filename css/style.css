@@ -9,7 +9,6 @@
   box-sizing: border-box;
   font-family:Arial, Helvetica, sans-serif;
   text-decoration: none;
-  scroll-behavior: smooth;
 }
 
 .tel-icon{
@@ -286,3 +285,40 @@ li{
   transform: scale(1.03);
   background-color: #f7f7f7;
 } 
+
+/* -------------------  privide  ----------------------- */
+.section-provide{
+    background-color: #fcfcfc;
+    padding: 4rem 0;
+}
+.privide{
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.provide-image {
+  display: flex;
+}
+.provide-image img{
+  width: 300px;
+  border-radius: 10px;
+}
+.provide-image img:first-child{
+  margin-right: 20px;
+}
+.provide-text{
+  padding-left: 40px;
+}
+
+
+.provide-text h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: #3b3b3b;
+}
+.provide-text p{
+  padding: 20px 0 40px 0;
+  color: #3b3b3b;
+}
