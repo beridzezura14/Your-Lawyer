@@ -1,7 +1,7 @@
 
 @media(max-width: 1081px){
 
-    .navbar, .tel-icon, .hero-row, .section-practice, .privide{
+    .navbar, .tel-icon, .hero-row, .section-practice, .privide, .happy-customer{
         max-width: 90%;
         margin-left: 5%;
        }
