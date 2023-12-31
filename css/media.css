@@ -1,7 +1,7 @@
 
 @media(max-width: 1081px){
 
-    .navbar, .tel-icon, .hero-row, .section-practice, .privide, .happy-customer{
+    .navbar, .tel-icon, .hero-row, .section-practice, .privide, .happy-customer, .rule-word{
         max-width: 90%;
         margin-left: 5%;
        }
@@ -123,6 +123,9 @@
       }
       .provide-text p{
         line-height: 25px;
+      }
+      .rule-word h4{
+        font-size: 40px;
       }
 
     }
