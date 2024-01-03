@@ -612,7 +612,7 @@ li{
 .section-history{
   margin: 4rem 0;
 }
-.active{
+.paragraph{
   max-width: 1080px;
   margin: auto;
 }
@@ -620,13 +620,13 @@ li{
 #more {
   display: none;
 }
-.active h1{
+.paragraph h1{
   text-align: center;
   font-size: 30px;
   color: #313131;
   font-family: 'Playfair Display';
 }
-.active p{
+.paragraph p{
   line-height: 22px;
   margin-bottom: 20px;
 }
@@ -636,7 +636,26 @@ li{
   color: #f1f1f1;
   cursor: pointer;
 }
+/* -------------------------- footer --------------- */
+footer{
+  background-color: #3b3b3b;
 
+}
+.footer{
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.footer a{
+  color: #fff;
+}
+.footer-menu a{ 
+  margin-left: 10px;
+}
 /* -------------------- scroll ---------------------------------- */
 
 
@@ -666,3 +685,6 @@ li{
   transition: opacity 500ms ease-in; }
 .fade-in.appear {
   opacity: 1; }
+
+
+
